@@ -5,9 +5,6 @@ require('dotenv').config()
 
 require('./config/mongoose.config')
 
-// console.log(process.env.ATLAS_USERNAME)
-
-
 //2. configure express
 //make sure these lines are above any app.get 
 app.use( express.json() ); //recognize JSON object
