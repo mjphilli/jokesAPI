@@ -1,11 +1,6 @@
 const Jokes = require("../models/jokes.model")
 
 
-//test api
-module.exports.apiTest = (req, res) =>{
-    res.json({message: "ok"})
-}
-
 //all jokes
 module.exports.allJokes = (req, res) =>{
     Jokes.find()
